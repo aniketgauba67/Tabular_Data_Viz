@@ -1,0 +1,74 @@
+File Planning the Project 
+
+Research & Writing Component: 
+- Research Question Does religious opinions affect a person's view on other freedom of speech?
+- External Sources used (APA citing) 
+
+Technical Content: 
+ - data files imported properly 
+- attention is paid to the complexities of the source data (missing data, coded values, sample weighing)
+- tabular data structures are used correctly & tidy data standards are followed
+- Pandas operations are used properly
+- Data Visualization are properly coded, sufficiently polished and used effectively
+
+Required components: 
+use pandas to read data as DataFrame  (done)
+use at least one helper function of your own design, defined in Jupyter Notebook or imported from a local Python script (.py file) 
+use pandas groupby with an aggregation method (agg, count, first, max, sum, mean, etc.)
+use pandas' apply method at least once to transform or create a variable
+use pandas' .loc, iloc, or .at to filter data
+use three of the following utility methods from pandas: sort_values, reset_index, set_index, fillna, dropna, astype, rename, drop, head, tail, describe
+use pandas to write data subset as .csv file or files
+use pandas' cut or qcut to create data bins
+display inline at least one scatter plot, one line plot, one sequence of boxplots (using matplotlib, seaborn, etc.)
+
+
+Data Guide Submission Guidelines: 
+Title 
+Introduction  
+Data Subset Description 
+Data Exploration 
+Uses of Python 
+References
+
+edits to data: changing the input to its actual meaning e.g: income/ partyid to being the actual words
+
+REDO possible dependent variables:
+childs - number of children (1972-2022)
+
+independent variables:
+year - year
+age - age of respondent
+relig - r's religious preference
+partyid - political party affiliation
+income - total family income
+region - region of interview
+race - race of respondent
+hapmar - happiness of marriage
+
+abgen - general opinion of abortion
+(created from the following variables in the data set)
+abdefect - (believe abortion should be legal when) strong chance of serious defect
+abnomore - (believe abortion should be legal when) married--wants no more children
+abhlth - (believe abortion should be legal when) woman's health seriously endangered
+abpoor - (believe abortion should be legal when) low income--cant afford more children
+abrape - (believe abortion should be legal when) pregnant as result of rape
+absingle - (believe abortion should be legal when) not married
+abany - (believe abortion should be legal when) abortion if woman wants for any reason
+If yes to all, abgen = always; if no to all, abgen = never; if yes to some but not all, abgen = sometimes
+(need to account for years before abany was added (1977))
+
+
+To-Do List:
+
+Aniket 
+income, region
+
+Klara
+partyid, religion
+
+Hoang
+race, hapmar
+
+Alex 
+year, age, abortion
